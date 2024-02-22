@@ -27,7 +27,7 @@ double tmax = 1.0; double tau = 0.001; double t = 0.0;
 	
 		t += tau;
 	
-	}
+	}    //тут был коммент
 	double tk = omp_get_wtime();
 	for (int i = 0; i < n; i++) {
 		cout << y[i] << endl;
